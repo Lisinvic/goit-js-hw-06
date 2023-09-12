@@ -10,5 +10,5 @@ form.addEventListener("submit", (event) => {
         } else {
             console.log({email: email.value, password: password.value})
         }
-    
+    form.reset();
 })
